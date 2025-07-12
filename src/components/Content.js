@@ -20,7 +20,7 @@ export default function Content() {
     console.log(amount, roi, duration);
 
     var message;
-    if (amount == '' || roi == '' || duration == '') {
+    if (amount === '' || roi === '' || duration === '') {
       message = 'all values r required';
       para.current.className = 'alert alert-danger';
     } else {
